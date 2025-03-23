@@ -1,0 +1,67 @@
+/* Full-screen container */
+.account-settings-container {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  
+  .account-settings-card {
+    width: 90%; 
+    height:100vh;
+    max-width: 350px; 
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d5db;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-settings-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #14171a;
+    margin-bottom: 10px;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
+  }
+  
+  .profile-email {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+  }
+  
+  .profile-description {
+    font-size: 12px;
+    color: #4b5563;
+    margin-top: 10px;
+  }
+  
